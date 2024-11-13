@@ -1,19 +1,65 @@
-# Future_Ino_WRO
-Team Introduction and Roles
-Our team consists of two dedicated members, each contributing essential skills to our robotics project.
-Miraj Shafek (Team Lead, Hardware & Software Developer):
- Miraj oversees the project, focusing on both hardware integration and software development. He has expertise in Raspberry Pi, computer vision, and machine learning, and has previously won a hackathon, showcasing his ability to solve complex problems effectively.
-Kishwar Rayat (Hardware Specialist & Designer):
- Kishwar handles the design and construction of the robot. He ensures the hardware is built to specification and works seamlessly with the software. His skills in hardware design complement the project's overall functionality.
-Summary of Project Idea: Disfren Man
-Disfren Man is an innovative solution designed to tackle various human-made problems that have led to natural disasters. While long-term solutions are still in progress, disasters like wildfires, gas leaks, and landslides continue to impact lives. Disfren Man offers an intelligent, automated system to manage and respond to these crises.
-In the case of a wildfire, Disfren Man autonomously navigates the affected area 
-using a highly trained self-driving system powered by OpenCV and NumPy. It detects lanes and traffic signals for safe, efficient travel. The robot is equipped with sonar and a gyroscope for stability, enabling it to move through challenging terrain.
-Once it reaches the fire zone, Disfren Man activates its firefighting system to control and extinguish the blaze. If a victim is found during a natural disaster, the robot uses facial recognition to identify the person from its database. It then transmits the patient’s medical history to the Disfren Man operational website, allowing doctors to prepare for treatment based on the patient's condition.
-Disfren Man also continuously monitors environmental factors like gas leaks and air pollution, updating the operational website to alert authorities in real time. The robot's robotic arm helps remove debris in the aftermath of landslides or earthquakes, clearing paths and enabling rescue operations.
-Disfren Man features a 7-inch touchscreen display, allowing on-site personnel to access its functionality and data for emergency response without breaching privacy. This versatile robot offers a multi-functional approach to disaster management, providing life-saving support and real-time environmental monitoring.
+# Levi - Autonomous Disaster Response Robot
 
+## Team Members and Roles
 
+### Miraj Shafek (Team Lead, Hardware & Software Developer)
+Miraj is responsible for overseeing the project, focusing on both hardware integration and software development. With expertise in Raspberry Pi, computer vision, and machine learning, Miraj brings advanced problem-solving skills, proven by his success in previous hackathons.
+
+### Kishwar Rayat (Hardware Specialist & Designer)
+Kishwar is in charge of the design and construction of the robot. He ensures the hardware is built to specification, and works seamlessly with the software to create a functional and reliable system for disaster management.
+
+## Project Overview: Levi - Autonomous Disaster Response Robot
+
+Levi is an innovative and intelligent disaster response robot designed to address the challenges posed by human-made and natural disasters such as wildfires, gas leaks, and landslides. Levi offers an autonomous, efficient, and multi-functional approach to disaster management, providing real-time environmental monitoring, rescue operations, and emergency response support.
+
+### Features
+
+1. **Autonomous Navigation and Self-Driving System**  
+   Levi uses an advanced self-driving system powered by OpenCV and NumPy, enabling it to autonomously navigate disaster-affected areas. It detects lanes and traffic signals to ensure safe and efficient travel through hazardous environments.
+
+2. **Firefighting System**  
+   Upon reaching a fire zone, Levi activates its firefighting system to control and extinguish the blaze, helping to reduce the spread and impact of wildfires.
+
+3. **Facial Recognition for Victim Identification**  
+   Levi utilizes facial recognition to identify victims during a disaster. It matches faces against a database and transmits the patient’s medical history to an operational website, helping doctors prepare for treatment based on the patient's condition.
+
+4. **Environmental Monitoring**  
+   Equipped with sensors, Levi monitors key environmental factors such as gas leaks, air pollution, and other hazardous conditions. It sends real-time updates to the operational website, alerting authorities and enabling prompt responses.
+
+5. **Robotic Arm for Debris Removal**  
+   In the aftermath of landslides or earthquakes, Levi uses its robotic arm to clear debris, facilitating rescue operations and helping ensure the safety of first responders.
+
+6. **7-Inch Touchscreen Display**  
+   Levi is equipped with a 7-inch touchscreen that provides on-site personnel with easy access to its functionality and data. This allows emergency responders to interact with the robot without compromising privacy or sensitive information.
+
+### How It Works
+
+Levi integrates hardware and software systems to perform disaster response tasks autonomously. The robot’s navigation capabilities are powered by computer vision, enabling it to avoid obstacles and navigate through challenging terrain. Once a disaster zone is reached, Levi’s firefighting system is activated for fire suppression, and it uses its sensors to detect gas leaks and air pollution.
+
+In cases where individuals are found, Levi’s facial recognition system identifies the person and transmits their medical history to a secure website, allowing doctors to prepare for their treatment remotely.
+
+Additionally, the robot’s robotic arm assists in clearing obstacles or debris, ensuring rescue teams have a clear path to reach victims.
+
+### Summary
+
+Levi is a versatile, autonomous robot designed to help mitigate the effects of natural and human-made disasters. With capabilities ranging from firefighting and victim identification to environmental monitoring and debris removal, Levi serves as a critical tool for emergency response teams and first responders.
+
+## Technologies Used
+
+- **Raspberry Pi** for controlling and processing data from sensors
+- **OpenCV** for computer vision tasks such as navigation and obstacle detection
+- **NumPy** for processing sensor data and implementing machine learning algorithms
+- **Facial Recognition** for victim identification
+- **Sonar and Gyroscopes** for stability and obstacle avoidance
+- **Robotic Arm** for debris removal
+
+## Installation and Setup
+
+Coming soon! This section will include detailed instructions on setting up Levi for your own disaster response needs.
+
+---
+
+Feel free to contribute or contact us for more information. Together, we can help reduce the impact of natural disasters and save lives with the power of robotics!
 ### Evolution of the Project Idea
 
 Initially, our project began with the idea of assisting injured people during natural disasters. We thought about connecting doctors and patients remotely, enabling doctors to assist even in hard-to-reach areas. However, we quickly realized that getting the injured to a hospital as soon as possible was just as important. Relying on manual intervention in such crises may not be feasible, so we decided to develop a self-driving system for the robot to autonomously transport injured patients to safety.
